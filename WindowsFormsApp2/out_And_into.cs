@@ -47,5 +47,10 @@ namespace WindowsFormsApp2
             Form admin_login = new admin_login();
             admin_login.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

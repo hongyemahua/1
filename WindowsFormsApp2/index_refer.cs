@@ -10,12 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
+    
     public partial class index_refer : Form
     {
         index_layout index = new index_layout();
         public index_refer()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -39,6 +41,15 @@ namespace WindowsFormsApp2
             Form fr = new index_refer_instrument();
             fr.MdiParent = this;
             fr.Show();
+            
+
+            
+        }
+
+        private void index_refer_Load(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }

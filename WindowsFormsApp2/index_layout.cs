@@ -9,6 +9,7 @@ namespace WindowsFormsApp2
 {
     public class index_layout
     {
+        
         public void a(Form fr)
         {
             fr.Top = 40;
@@ -16,6 +17,7 @@ namespace WindowsFormsApp2
         }
         public void b(Form fr)
         {
+            
             foreach (Form f in fr.MdiChildren)
             {
                 if (!f.IsDisposed)

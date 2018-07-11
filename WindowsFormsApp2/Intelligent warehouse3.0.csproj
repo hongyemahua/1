@@ -79,6 +79,12 @@
       <DependentUpon>index_dictionary.cs</DependentUpon>
     </Compile>
     <Compile Include="index_layout.cs" />
+    <Compile Include="index_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index_main.Designer.cs">
+      <DependentUpon>index_main.cs</DependentUpon>
+    </Compile>
     <Compile Include="index_refer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="index_dictionary.resx">
       <DependentUpon>index_dictionary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index_main.resx">
+      <DependentUpon>index_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="index_refer.resx">
       <DependentUpon>index_refer.cs</DependentUpon>
@@ -175,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="image\admin_login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Main_index\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
