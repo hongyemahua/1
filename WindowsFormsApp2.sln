@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligent warehouse3.0", "WindowsFormsApp2\Intelligent warehouse3.0.csproj", "{2A1F9D32-121A-4B40-8B3C-A7F97469C6E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Index_Mian_Design", "WindowsFormsApp2\Index_Mian_Design.csproj", "{2A1F9D32-121A-4B40-8B3C-A7F97469C6E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
