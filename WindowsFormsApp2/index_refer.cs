@@ -17,7 +17,7 @@ namespace WindowsFormsApp2
         public index_refer()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
+           
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
