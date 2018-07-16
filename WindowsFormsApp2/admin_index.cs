@@ -89,10 +89,33 @@ namespace WindowsFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            index.b(this);
+            //index.b(this);
             Form fr = new index_refer();
-            fr.MdiParent = this;
-            fr.Show();
+            //fr.MdiParent = this;
+            //fr.Show();
+            fr.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+     
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.label3.Text = DateTime.Now.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

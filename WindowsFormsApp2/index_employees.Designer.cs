@@ -99,11 +99,12 @@
             this.职位,
             this.薪资,
             this.操作});
-            this.dataGridView1.Location = new System.Drawing.Point(18, 43);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 52);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1110, 445);
+            this.dataGridView1.Size = new System.Drawing.Size(1278, 462);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // ID
             // 
@@ -163,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1140, 500);
+            this.ClientSize = new System.Drawing.Size(1330, 540);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -171,7 +172,9 @@
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(6, 6);
             this.Name = "index_employees";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "admin_employees";
             this.Load += new System.EventHandler(this.admin_employees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

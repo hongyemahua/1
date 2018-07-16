@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
     
     public partial class index_refer : Form
     {
-        index_layout index = new index_layout();
+       
         public index_refer()
         {
             InitializeComponent();
@@ -37,19 +37,21 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            index.b(this);
-            Form fr = new index_refer_instrument();
-            fr.MdiParent = this;
-            fr.Show();
-            
-
-            
+            Form ri = new index_refer_instrument();
+            ri.ShowDialog();
+            this.Hide();
+            //this.Close();
         }
 
         private void index_refer_Load(object sender, EventArgs e)
         {
            
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

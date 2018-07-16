@@ -109,6 +109,7 @@
             this.Controls.Add(this.password);
             this.Controls.Add(this.username);
             this.Name = "admin_login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "管理员登录";
             this.ResumeLayout(false);
             this.PerformLayout();

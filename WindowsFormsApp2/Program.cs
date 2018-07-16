@@ -17,7 +17,8 @@ namespace WindowsFormsApp2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new index_main());
-           // Application.Run(new index_refer());
+            //Application.Run(new index_refer_instrument());
+            // Application.Run(new index_refer());
             //Application.Run(new out_And_into());
         }
     }

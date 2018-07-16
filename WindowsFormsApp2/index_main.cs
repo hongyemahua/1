@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-  //  
+    
     public partial class index_main : Form
     {
         public index_main()
@@ -31,7 +31,9 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Form re = new index_refer();
+            re.ShowDialog();
+            //this.Hide();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -45,6 +47,18 @@ namespace WindowsFormsApp2
             Form fr = new index_refer();
             //fr.MdiParent = this;
             fr.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form admin_login = new admin_login();
+            admin_login.Show();
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.label2.Text = DateTime.Now.ToString();
         }
     }
 }
