@@ -117,5 +117,21 @@ namespace WindowsFormsApp2
         {
             
         }
+
+        private void toolStripTextBox4_Click(object sender, EventArgs e)
+        {
+            index.b(this);
+            Form fr = new Takeout_Warehouse();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void toolStripTextBox5_Click(object sender, EventArgs e)
+        {
+            index.b(this);
+            Form fr = new Takein_Warehouse();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }

@@ -187,6 +187,7 @@
             this.toolStripTextBox4.Name = "toolStripTextBox4";
             this.toolStripTextBox4.Size = new System.Drawing.Size(100, 29);
             this.toolStripTextBox4.Text = "出库";
+            this.toolStripTextBox4.Click += new System.EventHandler(this.toolStripTextBox4_Click);
             // 
             // toolStripTextBox5
             // 
@@ -194,6 +195,7 @@
             this.toolStripTextBox5.Name = "toolStripTextBox5";
             this.toolStripTextBox5.Size = new System.Drawing.Size(100, 29);
             this.toolStripTextBox5.Text = "入库";
+            this.toolStripTextBox5.Click += new System.EventHandler(this.toolStripTextBox5_Click);
             // 
             // toolStripMenuItem3
             // 
